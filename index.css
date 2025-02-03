@@ -1,0 +1,35 @@
+/* Ensure that the table container is scrollable horizontally */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+/* Make the table wider than the screen to trigger scrolling */
+table {
+    min-width: 1000px; /* Adjust based on your table content */
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Styling for the table */
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Styling for header */
+thead {
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+
+thead th {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+/* Optional: Add hover effect on table rows */
+tr:hover {
+    background-color: #f1f1f1;
+}
